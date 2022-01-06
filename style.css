@@ -1,3 +1,5 @@
+/* default style */
+
 body{
     margin: 0;
     padding: 0;
@@ -17,8 +19,7 @@ h1{
     font-weight: 400;
 }
 h2{
-    font-size: 48px;
-    
+    font-size: 48px;  
 }
 h3{
     font-size: 36px;
@@ -41,7 +42,7 @@ p,span{
     margin: auto;
     padding: 64px 0;
 }
-.hero-area .text-area,
+.flex-div .text-area,
 .image-area{
     width: 50%;
 }
@@ -64,15 +65,13 @@ p,span{
 }
 
 
-/***** Hero section style ****/
+/*** Hero section style ***/
 
 .hero-area img{
     width: 90%;
 }
 .hero-area .image-area{
-    display: flex;
-    justify-content: right;
-    flex-direction: row;
+    text-align: right;
 }
 .hero-area .welcome-title h1{
     max-width: 900px;
@@ -97,13 +96,8 @@ p,span{
     margin-bottom: 32px;
     margin-top: 16px;
 }
-/* .hero-area .welcome-title h1{
-    font-size: 60px;
-    color: #f8b376;
-} */
 
-
-/**** My mission section style ****/
+/*** My mission section style ***/
 
 .my-mission{
     text-align: center;
@@ -111,10 +105,6 @@ p,span{
     background-repeat: no-repeat;
     background-position: right bottom;
 }
-/* .my-mission h2 span{
-    color: #f8b376;
-    font-size: 48px;
-} */
 .my-mission .mission-items{
     display: flex;
     margin-top: 32px;
@@ -141,29 +131,19 @@ p,span{
     background-color: hsl(260, 100%, 86%);
 }
 
-/**** My expectation section style ****/
+/*** My expectation section style ***/
+
 .my-expectation{
     background-image: url(images/dots.png);
     background-repeat: no-repeat;
     background-position: left bottom;
 }
-.my-expectation .text-area,
-.image-area{
-    width: 50%;
-}
 .my-expectation .text-area h3{
     max-width: 300px;
 }
 
+/*** my-inspiration Section style ***/
 
-/**** my-inspiration Section style ***/
-.my-inspiration{
-    
-}
-.my-inspiration .text-area,
-.image-area{
-    width: 50%;
-}
 .my-inspiration .text-area p{
     max-width: 500px;
 }
@@ -175,6 +155,7 @@ p,span{
 }
 
 /*** Community section style ***/
+
 .community{
     text-align: center;
 }
@@ -185,11 +166,6 @@ p,span{
 }
 .community .flex-div{
     margin-top: 64px;
-}
-.community .text-area,
-.image-area{
-    width: 50%;
-    text-align: left;
 }
 .community form{
     margin-top: -60px;
@@ -210,8 +186,8 @@ form input[type="submit"]{
     border: none;
 }
 
-
 /*** Footer area style ***/
+
 footer{
     background-color: #0B0D17;
     text-align: center;
