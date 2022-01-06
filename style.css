@@ -27,11 +27,13 @@ h4{
     font-size: 26px;
 }
 p,span{
-    font-size: 16px;
     margin: 0;
     color: #333;
     margin-top: 16px;
     line-height: 1.4;
+}
+.highlight-text{
+    color: #f8b376;
 }
 .container{
     max-width: 1120px;
@@ -95,10 +97,10 @@ p,span{
     margin-bottom: 32px;
     margin-top: 16px;
 }
-.hero-area .welcome-title span{
+/* .hero-area .welcome-title h1{
     font-size: 60px;
     color: #f8b376;
-}
+} */
 
 
 /**** My mission section style ****/
@@ -106,10 +108,10 @@ p,span{
 .my-mission{
     text-align: center;
 }
-.my-mission h2 span{
+/* .my-mission h2 span{
     color: #f8b376;
     font-size: 48px;
-}
+} */
 .my-mission .mission-items{
     display: flex;
     margin-top: 32px;
@@ -165,4 +167,36 @@ p,span{
 }
 .my-inspiration .image-area{
     text-align: right;
+}
+
+/*** Community section style ***/
+.community{
+    text-align: center;
+}
+.community .flex-div{
+    margin-top: 64px;
+}
+.community .text-area,
+.image-area{
+    width: 50%;
+    text-align: left;
+}
+
+
+
+/*** Footer area style ***/
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 0;
+}
+footer h3{
+    color: #fff;
+}
+footer p{
+    color: #fff;
+}
+footer h3{
+    font-family: 'Lobster';
+    font-weight: 300;
 }
