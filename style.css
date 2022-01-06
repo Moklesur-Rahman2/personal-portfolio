@@ -4,7 +4,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 h1{
-    font-size: 72px;
+    font-size: 60px;
     text-transform: capitalize;
     margin: 0;
 }
@@ -23,7 +23,7 @@ p,span{
     line-height: 1.4;
 }
 .container{
-    max-width: 1280px;
+    max-width: 1120px;
     width: 100%;
     margin: auto;
     padding: 64px 0;
@@ -58,10 +58,10 @@ p,span{
     flex-direction: row;
 }
 .hero-area .welcome-title{
-    max-width: 600px;
+    max-width: 900px;
     border-left: 4px solid #5f27cd;
     padding-left: 16px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Yeseva One', cursive;
     border-radius: 8px;
 }
 .hero-area .text-area p{
@@ -69,6 +69,6 @@ p,span{
     margin-top: 32px;
 }
 .hero-area .welcome-title span{
-    font-size: 64px;
+    font-size: 60px;
     color: #f8b376;
 }
